@@ -12,10 +12,12 @@
   display:block;
   
 }
-
+.App-header{
+  background-color: aliceblue;
+}
 .App-header h1{
   text-align: center;
-  color: white;
+  color: rgb(17, 3, 3);
 }
 
 
