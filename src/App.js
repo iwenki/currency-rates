@@ -1,5 +1,5 @@
 import "./App.css";
-import "./Form";
+import Form from './Form.js';
 
 function App() {
   return (
@@ -10,7 +10,7 @@ function App() {
       <div className="container">
         <section className="primaryBox">
           <p>Input the amount and currencies you would like to convert below</p>
-          <Form.js />
+          <Form/>
         </section>
         <section className="secondaryBox"></section>
 
