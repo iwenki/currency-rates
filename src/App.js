@@ -5,11 +5,11 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>Currency Converter</h1>
+        <h1>Historical Exchange Rates</h1>
       </header>
       <div className="container">
         <section className="primaryBox">
-          <p>Input the amount and currencies you would like to convert below</p>
+          <p>Select the date, base currency and output currency</p>
           <Form/>
         </section>
         <section className="secondaryBox"></section>
