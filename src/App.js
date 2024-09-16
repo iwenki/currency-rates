@@ -10,7 +10,7 @@ function App() {
       <div className="container">
         <section className="primaryBox">
           <p>Select the date, base currency and output currency</p>
-          <Form/>
+          <Form defaultBase="EUR"/>
         </section>
         <section className="secondaryBox"></section>
 
